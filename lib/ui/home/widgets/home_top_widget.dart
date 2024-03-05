@@ -16,24 +16,18 @@ class HomeTopWidget extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Expanded(
-          child: Container(
-            margin: const EdgeInsets.only(right: 100),
-            decoration: BoxDecoration(
-              color: AppColors.white,
+        ElevatedButton(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: AppColors.white,
+            minimumSize: const Size.square(25),
+            shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(6),
             ),
-            child: Text(
-              text,
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 17,
-                color: color,
-              ),
-            ),
           ),
+          onPressed: () {},
+          child: Text(text),
         ),
-        Icon(
+        const Icon(
           Icons.save_outlined,
           color: AppColors.white,
         )

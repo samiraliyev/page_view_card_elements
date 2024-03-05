@@ -8,10 +8,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const SafeArea(
       child: Scaffold(
-        body: SizedBox(
-          height: 230,
-          child:  HomePageViewBuilder()
-        ),
+        body: SizedBox(height: 230, child: HomePageViewBuilder()),
       ),
     );
   }

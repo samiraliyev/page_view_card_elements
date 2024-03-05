@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AppPaddings{
+class AppPaddings {
   AppPaddings._();
 
-  static const all24 =  EdgeInsets.all(24);
+  static const all20 = EdgeInsets.all(20);
 }

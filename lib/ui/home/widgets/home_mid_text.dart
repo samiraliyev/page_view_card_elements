@@ -10,7 +10,7 @@ class HomeMidText extends StatelessWidget {
     return Expanded(
       child: Text(
         title,
-        style: TextStyle(
+        style: const TextStyle(
           color: AppColors.white,
           fontSize: 16,
         ),

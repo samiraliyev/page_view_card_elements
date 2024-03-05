@@ -13,11 +13,11 @@ class HomeBottomWidget extends StatelessWidget {
       children: [
         Text(
           name,
-          style: TextStyle(color: AppColors.white ),
+          style: const TextStyle(color: AppColors.white),
         ),
         Text(
           time,
-          style: TextStyle(color: AppColors.white),
+          style: const TextStyle(color: AppColors.white),
         ),
       ],
     );

@@ -23,15 +23,13 @@ class HomePageItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 100,
-      height: 100,
-      margin: AppPaddings.all24,
+      margin: AppPaddings.all20,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(24),
+        borderRadius: BorderRadius.circular(10),
         color: color,
       ),
       child: Padding(
-        padding: AppPaddings.all24,
+        padding: AppPaddings.all20,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -40,7 +38,7 @@ class HomePageItem extends StatelessWidget {
               color: color,
             ),
             const SizedBox(
-              height: 10,
+              height: 20,
             ),
             HomeMidText(
               title: title,
